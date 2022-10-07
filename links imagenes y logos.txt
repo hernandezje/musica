@@ -1,0 +1,31 @@
+elementos norte rock:
+
+imagen background:
+	https://i.ytimg.com/vi/ihrADwMJhMc/maxresdefault.jpg
+	https://yt3.ggpht.com/6qnPC8LJQ_GEiaYu0JwGKa0UK8wX5-frc7JBHsweRt8ugbM9lbWwrSwnLfU68MeFk0sW92Q11Q=s900-c-k-c0x00ffffff-no-rj
+
+imagen promocional 1 evento+tapitas:
+	https://cervezanorterock.com.ar/images/share.jpg
+
+imagen promocional 2 (bandas):
+	https://norteticket.com/media/imagenes_eventos/home/2022/08/norterock.jpg
+
+imagen promocional tapitas+cerveza:
+	https://cervezanorterock.com.ar/images/frase_banner_entradas.png
+
+imagen logo:
+	https://cervezanorterock.com.ar/images/logo_norte.svg
+
+
+
+
+imagen bandas:
+
+	miranda:https:https://www.cmtv.com.ar/imagenes_noticias/0201481001650998948.jpg?Aniversario_Numero_5_del_album_de_Miranda!
+
+	las pelotas:https://www.diariocastelli.com/wp-content/uploads/2019/10/Editable-Las-Pelotas.jpg
+
+	turf:https://monterreyrock.com/wp-content/uploads/2016/08/13920145_1894009087493074_720181309689321200_o.jpg
+
+	zoe gotusso:https://thisis-images.scdn.co/37i9dQZF1DZ06evO2jiZYA-large.jpg
+	
