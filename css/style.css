@@ -3,73 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
-.header{
-    color: blueviolet;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    margin: 100px 0 0 0;
+/*.bg-pag{
+    background-image: url('https://i.ytimg.com/vi/ihrADwMJhMc/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
 }
-.section{
-    color: crimson;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin: 100px 100px 0 100px;
-   /* align-items: center;*/
+*/
+.bg-nav{
+    background: rgb(34,25,3);
+    background: linear-gradient(90deg, rgba(34,25,3,1) 20%, rgba(116,86,17,1) 49%, rgba(0,212,255,1) 100%);;
 }
-
-.cajitaflex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: solid black;
-    width: 150px;
-    height: 50px;
+.bg-footer{
+    background-color: rgb(35, 34, 34);
+    background-size: cover;
 }
-
-@media (min-width: 768px) {
-    .mediaQuery {
-        font-size: 25px;
-        color: green;
-    }
-
+.separador{
+    color: blue;
 }
-@media (max-width: 375px){
-    .mediaQuery2 {
-        font-size: 10px;
-        color: blue;
-        margin: 50px 50px 0 50px;       
-    }
-
-    .header{
-        color: rgb(226, 144, 43);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: center;
-        margin: 100px 0 0 0;
-    }
-    .section{
-        color: rgb(53, 115, 174);
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 11px;
-        display: flex;
-        justify-content: space-between;
-        margin: 100px 50px 0 50px;
-       /* align-items: center;*/
-        
-    }
-    
-    .cajitaflex{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: solid rgb(2, 165, 151);
-        width: auto;
-        height: auto;
-    }
-
-
- }
-
+/*
+body{
+    background-color: aqua;
+}
+*/
