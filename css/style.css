@@ -1,8 +1,10 @@
-* {
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
+body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -23,7 +25,7 @@ p {
     font-size: 1.25em;
 }
 
-button {
+button{
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
@@ -111,4 +113,29 @@ header .container {
     
 
 }
+
+/*GERMAN---------------------------------------------------------------------------*/
+}
+/*.bg-pag{
+    background-image: url('https://i.ytimg.com/vi/ihrADwMJhMc/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+}
+*/
+.bg-nav{
+    background: rgb(34,25,3);
+    background: linear-gradient(90deg, rgba(34,25,3,1) 20%, rgba(116,86,17,1) 49%, rgba(0,212,255,1) 100%);;
+}
+.bg-footer{
+    background-color: rgb(35, 34, 34);
+    background-size: cover;
+}
+.separador{
+    color: blue;
+}
+/*
+body{
+    background-color: aqua;
+}
+*/
 
