@@ -1,3 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
+}
+
+button:hover {
+    background-color: rgb(84, 27, 138);
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(245, 245, 200);
+}
+
+header .logo {
+    margin: 0;
+    padding: 20px 30px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 3.6em;
+
+}
+
+header .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#somos-rock-norte {
+    display: flex;
+    align-items: center;
+    padding: 200px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://cultura.misiones.gob.ar/wp-content/uploads/2022/08/20220802_materock-1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-weight: bold;
+
+    color: white;
+}
+
+#redes_sociales {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#redes_sociales2 .container{
+    background-color: rgb(22, 18, 18);
+    color: white;
+    text-align: center;
+}
+#redes_sociales2 .container{
+    padding: 220px px 0px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("https://www.poblanerias.com/wp-content/archivos/2020/07/Guitarra-de-rock.jpg");
+
+}
+
+#redes_sociales2 p{
+    display: none;
+    
+
+}
+
+
+/*JOHANA----------------------------------------------------------*/
 h3{
     font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
@@ -23,13 +141,13 @@ p{
     margin: 50px;
     padding: 20px;
     
- }
+}
 
  .first-article img{
     border-radius: 10px;
     /* box-shadow: 40px 10px 10px 10px rgba(0, 0, 0, 0.923); */
     /* transition:ease-in-out; */
- }
+}
 
 .second-section{
     margin: 0 150px 0 150px;
@@ -94,7 +212,7 @@ p{
         display: flex;
         justify-content: space-between;
         flex-direction:column;
-    }
+     }
     
     .second-article{
         backdrop-filter: blur(10px);
@@ -115,4 +233,30 @@ p{
      }
     
     
- }
+}
+
+/*GERMAN---------------------------------------------------------------------------*/
+}
+/*.bg-pag{
+    background-image: url('https://i.ytimg.com/vi/ihrADwMJhMc/maxresdefault.jpg');
+    background-size: cover;
+    background-position: center;
+}
+*/
+.bg-nav{
+    background: rgb(34,25,3);
+    background: linear-gradient(90deg, rgba(34,25,3,1) 20%, rgba(116,86,17,1) 49%, rgba(0,212,255,1) 100%);;
+}
+.bg-footer{
+    background-color: rgb(35, 34, 34);
+    background-size: cover;
+}
+.separador{
+    color: blue;
+}
+/*
+body{
+    background-color: aqua;
+}
+*/
+
