@@ -44,6 +44,7 @@ button:hover {
 .container {
     max-width: 1400px;
     margin: auto;
+    padding: 20px;
 }
 
 /* body {
@@ -115,11 +116,7 @@ button:hover {
 
 }
 /*CHINTIA----------------------------------------------------------*/
-.container{
-    padding: 50px;
-    display: flex;
 
-}
 .container form{
     padding: 50px;
     width: 500px;
