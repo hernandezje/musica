@@ -158,22 +158,22 @@ button:hover {
 }
 
 .second-section{
-    margin: 0 150px 0 150px;
+    margin: 0 40px 0 40px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
 }
 
 .second-article{
-    backdrop-filter: blur(-150px);
+    backdrop-filter: blur(10px);
     text-align: justify;
-    margin: 20px;
+    margin: 10px;
     width: 230px;
     
  }
 
  .second-article img{
-    width: 220px;
+    width: 230px;
     padding: 30px 0;
  }
 
@@ -202,18 +202,21 @@ button:hover {
  /* desde aqui se diseña para phone */
 
  @media(max-width: 792px){
-
+    
     .first-article{
         border-radius: 1px;
-        margin: auto;
+        margin:auto;
+        padding: 20px 0 0 0;
         
     }
+
     .second-section{
-        margin:auto;
+        margin: auto;
         vertical-align: middle;
         display: flex;
         justify-content: space-around;
         flex-direction:column;
+        
      }
     
     .second-article{
@@ -221,19 +224,22 @@ button:hover {
         text-align: center;
         margin: auto;
         width: auto;
+        vertical-align: middle;
         
      }
-    
      .second-article img{
   
-        width: 290px;
-        padding: 30px 0;
-     }
-    
-     .second-article:hover{
-        opacity: 80%;
+        width: auto;
+        padding: 30px;
      }
 
+     .div-parrafo{
+        background-color: #e1eefdeb;
+        border-radius: 10px;
+        width: auto;
+     }
+    
+     
      .div-parrafo p{
         font-family: 'Arial Narrow Bold', sans-serif;
         text-align: center;
