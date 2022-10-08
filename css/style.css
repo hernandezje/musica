@@ -187,7 +187,7 @@ p{
 
     
     .second-section{
-        margin:150px;
+        margin:auto;
         vertical-align: middle;
         display: flex;
         justify-content: space-around;
@@ -197,9 +197,8 @@ p{
     .second-article{
         backdrop-filter: blur(10px);
         text-align: center;
-        align-items: center;
-        margin: 2px;
-        width: 500px;
+        margin: auto;
+        width: auto;
         
      }
     
