@@ -115,28 +115,30 @@ button:hover {
 
 }
 /*CHINTIA----------------------------------------------------------*/
-
 .container{
     padding: 50px;
+    display: flex;
+
 }
+.container form{
+    padding: 50px;
+    width: 500px;
+    background-color: #e1eefdeb;
+    border-radius: 10px;
+    margin:auto;
+    vertical-align: middle;
+}
+
 
 
 /*JOHANA----------------------------------------------------------*/
-h3{
-    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 30px;
-}
-p{
-    font-family: 'Arial Narrow Bold', sans-serif;
-   
-}
 
-
-.first-section{
-    background-image: url(https://wallpaperaccess.com/full/6647393.jpg);
-    background-size: 80%;
+.bg-pag{
+    background-image: url(https://img.freepik.com/fotos-premium/siluetas-multitud-conciertos-frente-brillantes-luces-escenario-fiesta-piscina_43569-176.jpg?w=2000);
+    background-size: 120%;
     background-color:#002856 ;
 }
+
 .desenf{
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -149,7 +151,7 @@ p{
     
 }
 
- .first-article img{
+.first-article img{
     border-radius: 10px;
     /* box-shadow: 40px 10px 10px 10px rgba(0, 0, 0, 0.923); */
     /* transition:ease-in-out; */
@@ -163,10 +165,9 @@ p{
 }
 
 .second-article{
-    backdrop-filter: blur(10px);
-    /* display: flex; */
+    backdrop-filter: blur(-150px);
     text-align: justify;
-    margin: 2px;
+    margin: 20px;
     width: 230px;
     
  }
@@ -180,12 +181,33 @@ p{
     opacity: 80%;
  }
 
+ .div-parrafo{
+    background-color: #e1eefdeb;
+    border-radius: 10px;
+ }
+
+ .div-parrafo h3{
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.div-parrafo p{
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    height: 300px;
+   
+}
+
  
  /* desde aqui se diseña para phone */
 
  @media(max-width: 792px){
 
-    
+    .first-article{
+        border-radius: 1px;
+        margin: auto;
+        
+    }
     .second-section{
         margin:auto;
         vertical-align: middle;
@@ -211,6 +233,13 @@ p{
      .second-article:hover{
         opacity: 80%;
      }
+
+     .div-parrafo p{
+        font-family: 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        height: auto;
+       
+    }
     
     
 }
