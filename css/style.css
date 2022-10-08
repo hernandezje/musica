@@ -1,13 +1,14 @@
+/*JUAN----------------------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+/* body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
+} */
 
 h1 {
     font-size: 3.5em;
@@ -45,24 +46,24 @@ button:hover {
     margin: auto;
 }
 
-body {
+/* body {
     background-color: rgb(245, 245, 200);
-}
+} */
 
-header .logo {
+/* header .logo {
     margin: 0;
     padding: 20px 30px;
     font-weight: bold;
     color: rgb(0, 0, 0);
     font-size: 3.6em;
 
-}
+} */
 
-header .container {
+/* header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 #somos-rock-norte {
     display: flex;
@@ -113,6 +114,11 @@ header .container {
     
 
 }
+/*CHINTIA----------------------------------------------------------*/
+
+.container{
+    padding: 50px;
+}
 
 
 /*JOHANA----------------------------------------------------------*/
@@ -152,7 +158,7 @@ p{
 .second-section{
     margin: 0 150px 0 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 
@@ -175,56 +181,31 @@ p{
  }
 
  
-
- 
- 
-
  /* desde aqui se diseña para phone */
 
- @media(max-width: 768px){
+ @media(max-width: 792px){
 
-    .first-section{
-        background-image: url(https://wallpaperaccess.com/full/6647393.jpg);
-        background-size: 5px;
-        background-color:#002856 ;
-    }
-    .desenf{
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-    }
-    
-    .first-article{
-        /* border-radius: 1px; */
-        width: min-content;
-        padding: 5px;
-        
-     }
-    
-     .first-article img{
-        border-radius: 10px;
-        width: 10%;
-        /* box-shadow: 40px 10px 10px 10px rgba(0, 0, 0, 0.923); */
-        /* transition:ease-in-out; */
-     }
     
     .second-section{
-        margin: 0 150px 0 150px;
+        margin:150px;
+        vertical-align: middle;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-direction:column;
      }
     
     .second-article{
         backdrop-filter: blur(10px);
-        /* display: flex; */
-        text-align: justify;
+        text-align: center;
+        align-items: center;
         margin: 2px;
-        width: 230px;
+        width: 500px;
         
      }
     
      .second-article img{
-        width: 220px;
+  
+        width: 290px;
         padding: 30px 0;
      }
     
@@ -236,7 +217,7 @@ p{
 }
 
 /*GERMAN---------------------------------------------------------------------------*/
-}
+
 /*.bg-pag{
     background-image: url('https://i.ytimg.com/vi/ihrADwMJhMc/maxresdefault.jpg');
     background-size: cover;
