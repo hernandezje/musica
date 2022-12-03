@@ -47,6 +47,10 @@ button:hover {
     padding: 20px;
 }
 
+#userSession {
+     visibility:hidden;
+}
+
 /* body {
     background-color: rgb(245, 245, 200);
 } */
@@ -120,7 +124,7 @@ button:hover {
 .container form{
     padding: 50px;
     width: 500px;
-    background-color: #e1eefdeb;
+    background-color: #1d1d1d98;
     border-radius: 10px;
     margin:auto;
     vertical-align: middle;
